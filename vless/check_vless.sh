@@ -56,7 +56,7 @@ generate_uuid() {
         "c53ca34c-8d9c-4a7e-8b44-5da52e4b5eaa"
         "73fc0a2d-2458-435b-92aa-b4e8e3e40944"
     )
-    uuid=${predefined_uuids[$RANDOM % ${#predefined_uuids[@]}]}
+    uuid=de04add9-5c68-8bab-950c-08cd53200715
     echo "$uuid"
 }
 # Function to save config.json
