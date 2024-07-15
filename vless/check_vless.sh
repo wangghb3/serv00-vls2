@@ -36,7 +36,7 @@ check_pm2_vless_status() {
 # Function to generate a UUID
 generate_uuid() {
     for i in {1..3}; do
-        uuid=$(uuidgen)
+        uuid=de04add9-5c68-8bab-950c-08cd53200715
         if [[ -n "$uuid" ]]; then
             echo "$uuid"
             return
